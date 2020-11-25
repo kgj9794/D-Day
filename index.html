@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no maximum-scale=1.0, user-scalable=no">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커플 디데이 📅</title>
+    
+	<link rel="icon" href="./images/favi.png">
+</head>
+<header id="header" style="margin: 0 auto; ">
+			<h1><a href="https://gunjo.o-r.kr" ><button class="mdc-icon-button material-icons" style="color:white;" id="sc">schedule</button></a><span class=ani style=" position: fixed; margin: 0 auto; left: 0; right: 0px; width: 157px;">&nbsp;D-day 📆</span></h1></header>
+<body>
+    <div id="container">
+        <div id="top">
+            <h2 style="display: inline" id="man"></h2>
+            <span id="heart" style="display: inline;"><a onClick='window.location.reload()' style='cursor: pointer; '><button class='mdc-icon-button material-icons' style='color:white;'>refresh</button></a></span>
+            <h2 style="display: inline" id="girl"></h2><br>
+            <div style="display: inline" id="non"><b</b><div id="startDay" style="display: inline"></div> </div>
+                <!-- 시작일로부터 현재까지 며칠이 지났는지 출력할 공간-->
+            <div id="today"></div>   <!-- 시작일 출력-->
+        </div>
+        <ul style="list-style:none;">
+            <li>
+                <span class="days100 days" id=q></span>
+                <span class="days2" id=d>
+                    <div id="dday100"></div>           
+                </span>
+            </li>
+            <li >
+                <span class="days200 days" id=q></span>
+                <span class="days2" id=e>
+                    <div id="dday200"></div>          
+                </span>
+            </li>
+            <li >
+                <span class="days300 days" id=q></span>
+                <span class="days2" id=f>
+                    <div id="dday300"></div>          
+                </span>
+            </li>
+            <li >
+                <span class="days367 days" id=q></span>
+                <span class="days2" id=g>
+                    <div id="dday367"></div>       
+                    <div id="qna"></div>      
+                </span>
+            </li>
+			
+            
+        </ul>
+		
+    </div>
+	<a href="https://www.instagram.com/gun.jooo/"><h5 id='me' style="color:white; position:fixed; bottom: -15px; left:0;">&nbsp;&nbsp;powered by kimgunjoo😊</h5></a>
+  <script src="bg.js"></script>
+  <script src="dday.js"></script>
+    <link href="dday.css" rel="stylesheet">
+</body>
+</html>
